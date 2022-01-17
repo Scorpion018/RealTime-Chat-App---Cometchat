@@ -212,7 +212,7 @@ const FriendList = props => {
         {friends.map(friend => (
           <li
             key={friend.uid}
-            className={`list-group-item ${friend.uid === Friend ? 'active' : ''
+            className={`list-group-item ${friend.uid === Friend ? '' : ''
               }`}
             onClick={() => props.selectFriend(friend.uid)}>
             {friend.name}
