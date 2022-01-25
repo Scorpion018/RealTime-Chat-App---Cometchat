@@ -1,0 +1,224 @@
+.header {
+  height: 114px;
+  background-color: #128c7e;
+  margin-top: -10%;
+  width: 101%;
+  opacity: 0.9;
+  margin-left: -19%;
+  position: absolute;
+}
+
+.main_body{
+  z-index: 1;
+  margin-top: 6.35%;
+  height: 915px;
+  width: 100%;
+  position: absolute  ;
+  background-color: #ECE5DD;
+}
+
+.body {
+  z-index: 9;
+  margin-top: -5.5%;
+}
+
+.main_header {
+  width: 9%;
+  margin-top: -0.9%;
+  border-radius: 50%;
+  margin-right: 3%;
+}
+
+.status_icon {
+  margin-left: 45%;
+  /* margin-right: -60%; */
+}
+
+.chat_icon {
+  margin-left: 85%;
+  margin-top: -8%;
+}
+.info_logo {
+  margin-left: 95%;
+  margin-top: -8%;
+  position: relative;
+  display: inline-block;
+}
+
+.search_bar {
+  margin-top: 3%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.search_in {
+  width: 60%;
+  margin-left: 5%;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: black;
+}
+
+.search_in:hover{
+  background-color: transparent;
+  color: black ;
+  border: 1px solid transparent;
+}
+
+.search_in:active{
+  background-color: transparent;
+  border: transparent;
+  color: black;
+}
+
+.search_logo {
+  margin-left: 5%;
+}
+
+.chat_header{
+  height: 20px;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+
+.chat_search{
+  margin-left: 88%;
+}
+
+.chat_dots{
+  margin-left: 3%;
+}
+
+.type_msg{
+  margin-top: -0.5%;
+  width: 117%;
+  /* border-radius: 50px; */
+}
+
+.screen_disp{
+  background-color: #ECE5DD;
+}
+
+.chat_logo{
+  height: 30px;
+  border-radius: 50%;
+}
+
+.search_icon{
+  margin-left: 50%;
+  margin-top: -10%;
+}
+
+.mic{
+  border: 1px solid transparent;
+  background-color: white;
+  margin-top: 1%;
+  /* margin-left: 20%; */
+}
+.file_attach{
+  border: 1px solid transparent;
+  background-color: transparent;
+  /* margin-top: 1%; */
+  margin-left: 20%;
+}
+
+.msgs{
+  margin-top: -4%;
+}
+
+.smiley{
+  margin-left: 50%;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.friends_list{
+  margin-top: -110%;
+}
+
+.horizontal_line{
+  /* width: 50%; */
+  color: black;
+  display: block;
+  margin-left: 0;
+  /* margin-right: -10%; */
+}
+
+.cliploader{
+  margin-top: -40%;
+}
+
+.info_logo .tooltiptext {
+  visibility: hidden;
+  /* width: 120px; */
+  /* background-color: black; */
+  color: black;
+  text-align: center;
+  margin-top: -110%;
+  margin-left: -180%;
+  border: 1px solid black;
+  /* border-radius: 6px; */
+  /* padding: 5px 0; */
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  /* top: -5px; */
+  /* left: 105%; */
+}
+
+.info_logo:hover .tooltiptext {
+  visibility: visible;
+}
+
+.sender .sender_name{
+  color: cornflowerblue;
+  font-size: xx-small;
+  margin-top: -20%;
+  float: left;
+  text-align: center;
+}
+
+.receiver .sender_name{
+  color: blue;
+  font-size: xx-small;
+  margin-top: -18%;
+  float: left;
+  text-align: center;
+}
+
+.sender .chat_data{
+  float: left;
+
+}
+
+.receiver .chat_data{
+  float: left;
+
+}
+
+.sender .tick_mark{
+  color: green;
+  float: right;
+  font-size: small;
+  margin-top: 10%;
+  visibility: none;
+  display: none;
+}
+
+.receiver .tick_mark{
+  color: green;
+  float: right;
+  font-size: small;
+  margin-top: 3%;
+  /* margin-left: 10%; */
+  opacity: 0.3;
+  /* margin-right: -10%; */
+}
+
+.user_name{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 1%;
+}

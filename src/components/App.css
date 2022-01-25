@@ -1,0 +1,84 @@
+.container {
+  margin-top: 10%;
+}
+.login-form {
+  color: black;
+  /* border: 2px solid black; */
+}
+.login-form h3 {
+  margin-top: 15%;
+  text-align: center;
+  color: #333;
+}
+
+.login-container form {
+  padding: 0%;
+}
+
+.message {
+  overflow: hidden;
+}
+
+.form-group form-control{
+  color: black;
+}
+
+.text_register{
+  font-size: x-small;
+  float: right;
+}
+
+.form_reg{
+  color: black;
+}
+
+.register_form{
+  text-align: center;
+  margin-left: 40%;
+}
+.reg{
+  font-size: x-large;
+  margin-left: -35%;
+}
+
+.register_logo:onclick{
+  display: block;
+}
+
+
+.register_logo{
+  width: 3%;
+  height: 30px;
+  margin-left: 62%;
+  margin-top: -7%;
+}
+
+.active{
+  background: gray;
+}
+
+.sender {
+  float: left;
+  background: ghostwhite;
+  border-radius: 10px;
+  height: 42px;
+  justify-content: center;
+}
+
+.receiver {
+  float: right;
+  /* margin-left: -10%; */
+  background: #DCF8C6;
+  border-radius: 10px;
+  justify-content: center;
+  height: 43px;
+}
+
+.friend_status{
+  float: right;
+  font-size: x-small;
+  margin-top: 5%;
+}
+
+
+
